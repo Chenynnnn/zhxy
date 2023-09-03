@@ -10,7 +10,7 @@ import org.springframework.util.StringUtils;
 import java.util.Date;
 
 public class JwtHelper {
-    //令牌的有效时间
+    //设置令牌的有效时间为一天
     private static long tokenExpiration = 24*60*60*1000;
     //密钥
     private static String tokenSignKey = "123456";
